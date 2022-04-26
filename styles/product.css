@@ -1,0 +1,19 @@
+                #product {
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+                
+                #product td,
+                #product th {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                }
+                
+                .productName {
+                    width: 30%;
+                }
+                
+                .productPrice {
+                    width: 10%;
+                }

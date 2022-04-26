@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/indexStyle.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+
+<body>
+    <menu>
+        <li class="menuElement"><a href="./Index.html">Home</a></li>
+        <li class="menuElement"><a href="./product.html">Product</a></li>
+        <li class="menuElement"><a href="./contact.html">Contact</a></li>
+        <li class="menuElement"><a href="./about.html">About</a></li>
+    </menu>
+
+
+    <h3>Uzduotkit savo klausima</h3>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Vardas</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Jusu vardas..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Pavarde</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Jusu pavarde..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Miestas</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="vilnius">Vilnius</option>
+                        <option value="kaunas">Kaunas</option>
+                        <option value="kliapeda">Klaipeda</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Klausimas</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Jusu klausimas.."
+                        style="height:200px"></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div id="botom">
+        <p>Visos teises saugomos :) <br> Kure Najus</p>
+    </div>
+
+</body>
+
+</html>
